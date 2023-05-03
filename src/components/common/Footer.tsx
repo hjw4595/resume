@@ -1,5 +1,3 @@
-interface Menu {}
-
 function Footer() {
   return <div></div>;
 }

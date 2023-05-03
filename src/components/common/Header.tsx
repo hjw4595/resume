@@ -1,5 +1,3 @@
-interface Menu {}
-
 function Header() {
   return <div></div>;
 }
