@@ -1,5 +1,5 @@
 {
-  "homepage": "  https://hjw4595.github.io/resume",
+  "homepage": "https://resume.hongjungwan.com",
   "name": "resume",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +12,7 @@
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.1",
     "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.4.0",
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "category": "Dev",
+      "list": [
+        {
+          "title": "JS",
+          "description": "es6 문법을 활용합니다"
+        },
+        {
+          "title": "JS",
+          "description": "es6 문법을 활용합니다"
+        }
+      ]
+    }
+  ]
+}
