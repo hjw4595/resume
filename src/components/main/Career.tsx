@@ -1,4 +1,4 @@
-interface Content {
+export interface CareerContent {
   company: string;
   period: string;
   contents: {
@@ -6,36 +6,38 @@ interface Content {
     description: string;
     skillList: string[];
     result: string[];
-  };
+  }[];
 }
 
 interface Props {
-  list: Content[];
+  list: CareerContent[];
 }
 
-const ContentItem = ({ company, period, contents }: Content) => {
+const ContentItem = ({ company, period, contents }: CareerContent) => {
   return (
-    <div className="relative flex">
+    <div key={company} className="relative flex">
       <div className="w-[160px]">
         <div className="sticky top-0 ">
           <div>{company}</div>
           <div>{period}</div>
         </div>
       </div>
-      <div className="flex-1 h-[500px]">
-        <div>{contents.description}</div>
-        <div>{contents.project}</div>
-        <div>
-          {contents.skillList.map(() => (
-            <div></div>
-          ))}
+      {contents.map((project) => (
+        <div key={project.project} className="flex-1 h-[500px]">
+          <div>{project.description}</div>
+          <div>{project.project}</div>
+          <div>
+            {project.skillList.map((_, index) => (
+              <div key={index}></div>
+            ))}
+          </div>
+          <div>
+            {project.result.map((_, index) => (
+              <div key={index}></div>
+            ))}
+          </div>
         </div>
-        <div>
-          {contents.result.map(() => (
-            <div></div>
-          ))}
-        </div>
-      </div>
+      ))}
     </div>
   );
 };

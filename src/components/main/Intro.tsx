@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-interface IntroType {
+export interface IntroContentTypes {
   name: string;
   contects: {
     phone: string;
@@ -11,7 +11,7 @@ interface IntroType {
 }
 
 interface Props {
-  intro: IntroType;
+  intro: IntroContentTypes;
 }
 
 const titleRow = (title: string, content: string) => (

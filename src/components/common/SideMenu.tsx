@@ -26,7 +26,7 @@ function SideMenu() {
       <span>목차</span>
       {ITEM_LIST.map((item) => {
         return (
-          <div onClick={() => handleClickMenu(item.title)}>
+          <div key={item.title} onClick={() => handleClickMenu(item.title)}>
             {menuItem(item)}
           </div>
         );
