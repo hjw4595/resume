@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-interface IntroType {
+export interface IntroContentTypes {
   name: string;
   contects: {
     phone: string;
@@ -11,7 +11,7 @@ interface IntroType {
 }
 
 interface Props {
-  intro: IntroType;
+  intro: IntroContentTypes;
 }
 
 const titleRow = (title: string, content: string) => (
@@ -26,12 +26,12 @@ function Intro({ intro }: Props) {
   return (
     <div>
       <div>{name}</div>
+      <div>{shortIntro}</div>
       <div>
         {titleRow("Phone", contects.phone)}
         {titleRow("Email", contects.email)}
         {titleRow("Github", contects.github)}
       </div>
-      <div>{shortIntro}</div>
     </div>
   );
 }
