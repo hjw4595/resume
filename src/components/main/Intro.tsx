@@ -26,12 +26,12 @@ function Intro({ intro }: Props) {
   return (
     <div>
       <div>{name}</div>
+      <div>{shortIntro}</div>
       <div>
         {titleRow("Phone", contects.phone)}
         {titleRow("Email", contects.email)}
         {titleRow("Github", contects.github)}
       </div>
-      <div>{shortIntro}</div>
     </div>
   );
 }
