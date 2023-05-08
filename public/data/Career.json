@@ -2,27 +2,6 @@
   "data": [
     {
       "company": "마이셀럽스",
-<<<<<<< Updated upstream
-      "period": "2022.10 ~ ",
-      "contents": [
-        {
-          "project": "SASS Admin",
-          "description": "",
-          "skillList": [],
-          "result": []
-        },
-        {
-          "project": "1",
-          "description": "asd",
-          "skillList": [],
-          "result": []
-        },
-        {
-          "project": "2",
-          "description": "asd",
-          "skillList": [],
-          "result": []
-=======
       "period": "2022.10 ~ 재직 중 (6개월)",
       "contents": [
         {
@@ -92,21 +71,10 @@
             "애자일 프로세스를 적용하면서 피드백 및 회고 경험",
             "중복되는 기능 함수화 및 UI 컴포넌트 분할로 재사용성 증가"
           ]
->>>>>>> Stashed changes
         }
       ]
     },
     {
-<<<<<<< Updated upstream
-      "company": "cxvcxv",
-      "period": "3~4",
-      "contents": [
-        {
-          "project": "3",
-          "description": "4",
-          "skillList": [],
-          "result": []
-=======
       "company": "개인프로젝트",
       "period": "",
       "contents": [
@@ -141,7 +109,6 @@
           "result": [
             "프로젝트의 진행 과정을 알기위한 참여였고, 타직군 (기획, 디자인) 과 함께 진행 할수있었던 프로젝트였습니다."
           ]
->>>>>>> Stashed changes
         }
       ]
     }
