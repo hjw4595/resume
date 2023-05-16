@@ -15,6 +15,7 @@
 
 폴더구조 및 설명
 
+```
 📦src
 ┣ 📂components
 ┃ ┣ 📂common // 공용으로 사용하는 컴포넌트
@@ -36,7 +37,9 @@
 ┣ 📜react-app-env.d.ts
 ┣ 📜reportWebVitals.ts
 ┗ 📜setupTests.ts
+```
 
 작업 로그
 
 - 2023 / 5 / 3 - 기본적인 레이아웃 작성 및 gh-pages를 이용한 정적페이지 배포
+- 2023 / 5 / 8 - 이력서 업데이트 및 다크모드 개발방향 정하기
