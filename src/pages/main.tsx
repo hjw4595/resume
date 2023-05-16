@@ -12,29 +12,30 @@ function Main() {
       <header className="grid-row-1 h-[48px] bg-gray-400">
         <Header />
       </header>
-      <main>
-        <div className=" grid grid-cols-6">
-          <div className="col-span-5 bg-slate-100">
+      <div>
+        <div className="flex">
+          <main className="bg-slate-100">
             <div className="p-8">
-              <div id="Intro" className="">
+              <section id="Intro" className="mb-8">
                 <IntroContainer />
-              </div>
-              <div id="Career" className="">
+              </section>
+              <section id="Career" className="mb-8">
                 <CareerContainer />
-              </div>
-              <div id="Skill" className="">
+              </section>
+              <section id="Skill" className="mb-8">
                 <SkillContainer />
-              </div>
-              <div id="Other" className="">
+              </section>
+              <section id="Other" className="">
                 <OtherContainer />
-              </div>
+              </section>
             </div>
-          </div>
-          <aside className="relative">
+          </main>
+
+          <aside className="relative w-fit">
             <SideMenu />
           </aside>
         </div>
-      </main>
+      </div>
       <footer className="h-[48px] bg-gray-400">
         <Footer />
       </footer>
