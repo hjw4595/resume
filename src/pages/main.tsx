@@ -36,7 +36,7 @@ function Main() {
           </aside>
         </div>
       </div>
-      <footer className="h-[48px] bg-gray-400">
+       <footer className="h-[48px] bg-gray-400">
         <Footer />
       </footer>
     </>

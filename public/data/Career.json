@@ -2,11 +2,11 @@
   "data": [
     {
       "company": "마이셀럽스",
-      "period": "2022.10 ~ 재직 중 (6개월)",
+      "period": "2022.10 ~ 재직 중 (8개월)",
       "contents": [
         {
           "project": "글램아이 어드민",
-          "description": "asd",
+          "description": "글램아이의 다양한 컨텐츠 관리를 위한 어드민",
           "skillList": [
             "NEXT.js",
             "React-query",
