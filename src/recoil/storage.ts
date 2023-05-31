@@ -6,9 +6,11 @@ const { persistAtom } = recoilPersist({
   storage: localStorage,
 });
 
-type Mode = boolean;
+export interface Mode {
+  mode: boolean;
+}
 
-export const darkmode = atom<Mode>({
+export const darkmode = atom<boolean>({
   key: "mode",
   default: false,
   effects_UNSTABLE: [persistAtom],

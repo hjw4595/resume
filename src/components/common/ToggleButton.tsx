@@ -1,12 +1,10 @@
-import { useEffect, useState } from "react";
+import { useRecoilState } from "recoil";
+import { darkmode } from "recoil/storage";
 
 function ToggleButton() {
-  const [darkMode, setDarkMode] = useState<boolean>(false);
+  const [mode, setMode] = useRecoilState(darkmode);
 
-  const handleClick = () => setDarkMode((prev) => !prev);
-  useEffect(() => {
-    setDarkMode(false);
-  }, []);
+  const handleClick = () => setMode((prev) => !prev);
 
   return (
     <div
@@ -16,7 +14,7 @@ function ToggleButton() {
     >
       <div
         className={`absolute duration-300 ${
-          darkMode ? "translate-x-1 bg-black" : "translate-x-16 bg-white "
+          mode ? "translate-x-1 bg-black" : "translate-x-16 bg-white "
         } w-7 h-7 rounded-full
         `}
       ></div>
